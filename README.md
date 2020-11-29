@@ -25,3 +25,7 @@ This is a multi-class classification problem wherein using previous years' news 
 |ANN   	|X   	|X   	|88.33 %|
 |LSTM based ANN   	|X   	|X   	| %|
 
+## Key Takeaways
+
+When working on a project, there are multiple constraints such as time, resources, and the quality of solution, among various other things that have to be kept in mind. Hence, knowing which methods to use will result in quicker development of the solution.
+If classification 
