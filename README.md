@@ -1,11 +1,13 @@
 # Comparing-Text-Classification-Methods
 
-|   	|Word Count    	|TFIDF   	|
-|---	|---	|---	|
-|Naive Bayes   	|92.60 %   	|92.38 %   	|
-|Logistic Regression   	|94.19 %   	|92.95 %   	|
+|   	|Word Count    	|TFIDF   	|GloVe |
+|---	|---	|---	|---	|
+|Naive Bayes   	|92.53 %   	|92.34 %   	|X|
+|Logistic Regression   	|94.22 %   	|93.46 %   	|X|
+|ANN   	|X   	|X   	| %|
+|LSTM based ANN   	|X   	|X   	| %|
 
 |   	|GloVe    	|
 |---	|---	|
-|ANN   	|92.60 %   	|
-|LSTM based ANN   	|94.19 %   	|
+|ANN   	|88.33 %   	|
+|LSTM based ANN   	| %   	|
