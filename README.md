@@ -12,10 +12,12 @@ This is a multi-class classification problem wherein using previous years' news 
 ### Training Times
 |Model|Time Taken    	|
 |---	|---	|
-|Naive Bayes   	||
-|Logistic Regression   	||
-|ANN   	||
-|LSTM based ANN   	||
+|Naive Bayes (Count Vectors)   	| <1 second|
+|Naive Bayes (TFIDF Vectors)   	| <1 second|
+|Logistic Regression (Count Vectors)  	| 20 seconds|
+|Logistic Regression (TFIDF Vectors)  	| 3 minutes|
+|CNN   	|47 minutes|
+|LSTM based CNN   	|3 hours|
 
 ### Accuracy Achieved
 |   	|Word Count    	|TFIDF   	|GloVe |
