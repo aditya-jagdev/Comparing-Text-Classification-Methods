@@ -24,10 +24,12 @@ This is a multi-class classification problem wherein using previous years' news 
 |---	|---	|---	|---	|
 |Naive Bayes   	|92.53 %   	|92.34 %   	|X|
 |Logistic Regression   	|94.22 %   	|93.46 %   	|X|
-|ANN   	|X   	|X   	|88.33 %|
-|LSTM based ANN   	|X   	|X   	| %|
+|CNN   	|X   	|X   	|88.33 %|
+|LSTM based CNN   	|X   	|X   	|89.81 %|
 
 ## Key Takeaways
 
-When working on a project, there are multiple constraints such as time, resources, and the quality of solution, among various other things that have to be kept in mind. Hence, knowing which methods to use will result in quicker development of the solution.
-If classification 
+* When working on a project, there are multiple constraints such as time, resources, and the quality of solution, among various other things that have to be kept in mind. Hence, knowing which methods to use will result in quicker development of the solution.
+* If classification is to be carried out on words from a known and specific domain wherein it is known that no new words may show up, then traditional ML techniques are better.
+* If classification is to be carried out in a scenario where the words in the given domain can vary too much with sentences, and there is no control over the kind of word inputs that one is going to receive, CNNs should be used.
+* While LSTM gave marginally better performance, this came at a huge price of much longer training times.
